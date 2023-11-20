@@ -1,9 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Montserrat:wght@100;500&family=Roboto+Flex:opsz,wght@8..144,200;8..144,500;8..144,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto flex", Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: teal;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-container {
+  /* border: 1px solid white; */
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  /* border: 1px solid white; */
+  padding: 30px;
+}
+.nav-menu {
+  /* border: 1px solid white; */
+  color: white;
+}
+.nav-menu ul {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: end;
+  text-transform: uppercase;
+}
+.nav-menu li {
+  /* border: 1px solid white; */
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
 }
